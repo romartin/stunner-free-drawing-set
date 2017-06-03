@@ -36,6 +36,7 @@
     <module>stunner-free-drawing-api</module>
     <module>stunner-free-drawing-backend</module>
     <module>stunner-free-drawing-client</module>
+    <module>stunner-screen-flow-api</module>
     <module>stunner-free-drawing-showcase</module>
   </modules>
 

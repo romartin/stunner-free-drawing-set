@@ -514,26 +514,6 @@
       <scope>provided</scope>
     </dependency>
 
-
-    <dependency>
-      <groupId>org.kie.workbench.stunner</groupId>
-      <artifactId>stunner-free-drawing-api</artifactId>
-      <version>${project.version}</version>
-    </dependency>
-
-    <dependency>
-      <groupId>org.kie.workbench.stunner</groupId>
-      <artifactId>stunner-free-drawing-backend</artifactId>
-      <version>${project.version}</version>
-    </dependency>
-
-    <dependency>
-      <groupId>org.kie.workbench.stunner</groupId>
-      <artifactId>stunner-free-drawing-client</artifactId>
-      <version>${project.version}</version>
-      <scope>provided</scope>
-    </dependency>
-
     <dependency>
       <groupId>org.kie.workbench.stunner</groupId>
       <artifactId>kie-wb-common-stunner-forms-api</artifactId>
@@ -566,6 +546,33 @@
       <groupId>org.kie.workbench.stunner</groupId>
       <artifactId>kie-wb-common-stunner-project-client</artifactId>
       <scope>provided</scope>
+    </dependency>
+
+    <!-- Stunner - Free Drawing Set. -->
+    <dependency>
+      <groupId>org.kie.workbench.stunner</groupId>
+      <artifactId>stunner-free-drawing-api</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.kie.workbench.stunner</groupId>
+      <artifactId>stunner-free-drawing-backend</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.kie.workbench.stunner</groupId>
+      <artifactId>stunner-free-drawing-client</artifactId>
+      <version>${project.version}</version>
+      <scope>provided</scope>
+    </dependency>
+
+    <!-- Stunner - Screen FLow Set. -->
+    <dependency>
+      <groupId>org.kie.workbench.stunner</groupId>
+      <artifactId>stunner-screen-flow-api</artifactId>
+      <version>${project.version}</version>
     </dependency>
 
     <!-- Guvnor -->
@@ -1206,6 +1213,7 @@
             <compileSourcesArtifact>org.kie.workbench.stunner:kie-wb-common-stunner-project-client</compileSourcesArtifact>
             <compileSourcesArtifact>org.kie.workbench.stunner:stunner-free-drawing-api</compileSourcesArtifact>
             <compileSourcesArtifact>org.kie.workbench.stunner:stunner-free-drawing-client</compileSourcesArtifact>
+            <compileSourcesArtifact>org.kie.workbench.stunner:stunner-screen-flow-api</compileSourcesArtifact>
 
           </compileSourcesArtifacts>
 

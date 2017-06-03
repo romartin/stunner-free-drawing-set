@@ -67,6 +67,7 @@
   <inherits name="org.kie.workbench.common.stunner.project.StunnerProjectClient"/>
   <inherits name="org.kie.workbench.common.stunner.client.StunnerWidgets"/>
   <inherits name="org.kie.workbench.common.stunner.freedraw.StunnerFreeDrawingClient"/>
+  <inherits name="org.kie.workbench.common.stunner.screenflow.StunnerScreenFlowApi"/>
 
   <!-- Form modeler.-->
   <inherits name="org.kie.workbench.common.stunner.forms.StunnerFormsClient"/>
